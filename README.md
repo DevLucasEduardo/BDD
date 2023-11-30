@@ -8,13 +8,13 @@ O projeto foi criado utilizando a linguagem Java e o framework Cucumber para esc
 
 ## Funcionalidades
 
+É possível criar um cliente comum ou especial. A diferença entre os dois é que o cliente especial pode solicitar saques caso sua conta esteja negativa ou venha a ficar negativa, já o cliente comum não é permitido realizar transações deste tipo, a não ser que esteja positivo e permaneça desta forma.
 A classe `Conta` possui métodos para:
 
-- Configurar um cliente especial com um saldo atual específico.
-- Simular uma solicitação de saque para um valor específico.
-- Verificar se um saque deve ser efetuado e atualizar o saldo da conta conforme necessário.
-- Verificar se um saque não deve ser efetuado devido a fundos insuficientes.
-- Realizar verificações ou checagens adicionais se necessário.
+- Criar um cliente especial com um determinado saldo.
+- Criar um cliente comum com um determinado saldo.
+- Solicitar saldo.
+- Efetuar ou não o saldo de acordo com a situação do cliente.
 
 ## .feature 
 
