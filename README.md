@@ -2,19 +2,20 @@
 
 ## Descrição
 
-Este projeto é um exemplo de aplicação de Desenvolvimento Dirigido por Comportamento (BDD) usando o Cucumber e JUnit para testes automatizados. Trata-se de uma classe `Conta` que implementa funcionalidades básicas de operações bancárias, como saques para clientes comuns e especiais.
+Este projeto é uma aplicação de Desenvolvimento Dirigido por Comportamento (BDD) usando o Cucumber. Trata-se de uma classe `Conta` que implementa operações bancárias de saques para clientes comuns e especiais.
 
-O projeto foi criado utilizando a linguagem Java e o framework Cucumber para escrever e executar testes de comportamento (BDD) para as operações de saque em uma conta bancária.
+O projeto foi criado utilizando a linguagem Java e o framework Cucumber para escrever e executar testes BDD.
 
 ## Funcionalidades
 
 É possível criar um cliente comum ou especial. A diferença entre os dois é que o cliente especial pode solicitar saques caso sua conta esteja negativa ou venha a ficar negativa, já o cliente comum não é permitido realizar transações deste tipo, a não ser que esteja positivo e permaneça desta forma.
+
 A classe `Conta` possui métodos para:
 
 - Criar um cliente especial com um determinado saldo.
 - Criar um cliente comum com um determinado saldo.
 - Solicitar saldo.
-- Efetuar ou não o saldo de acordo com a situação do cliente.
+- Efetuar ou não o saque de acordo com a situação do cliente.
 
 ## .feature 
 
