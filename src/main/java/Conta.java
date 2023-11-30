@@ -1,73 +1,102 @@
-import io.cucumber.java.PendingException;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 /**
- * Esta classe contém definições de passos do Cucumber relacionados a operações de conta.
+ * Esta classe métodos relacionados a operações de conta.
  * Autor: Lucas Eduardo Pereira
  * Versão: 1.0
  * Desde: 2023-11-29
  */
 public class Conta {
     
+	
     /**
-     * Configura um cliente especial com um saldo atual específico.
-     *
-     * @param saldoAtual O saldo atual do cliente especial.
-     * @throws Throwable Lança uma PendingException porque a implementação está pendente.
+     * Construtor sem argumentos.
      */
-    @Given("^Um cliente especial com saldo atual de -(\\d+) reais$")
-    public void um_cliente_especial_com_saldo_atual_de_reais(int saldoAtual) throws Throwable {
-        throw new PendingException();
+    public Conta() {
     }
     
     /**
-     * Simula uma solicitação de saque de um valor específico.
+     * Configura um cliente especial com um saldo atual.
      *
-     * @param valorSaque O valor solicitado para ser sacado.
-     * @throws Throwable Lança uma PendingException porque a implementação está pendente.
+     * @param saldoAtual O saldo atual do cliente especial.
+     */
+    @Given("^um cliente especial com saldo atual de -(\\d+) reais$")
+    public void cliente_especial_com_saldo_negativo(int saldoAtual) {
+        // Método ainda não implementado
+    }
+    
+    /**
+     * Solicita um saque com um valor em reais.
+     *
+     * @param valorSaque O valor a ser sacado.
      */
     @When("^for solicitado um saque no valor de (\\d+) reais$")
-    public void foi_solicitado_um_saque_no_valor_de_reais(int valorSaque) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    public void foi_solicitado_um_saque_no_valor_de_reais(int valorSaque) {
+        // Método ainda não implementado
     }
 
     /**
-     * Verifica se um saque deve ser executado e o saldo da conta atualizado conforme necessário.
+     * Verifica se o saque foi efetuado com sucesso e atualiza o saldo da conta para um valor em reais.
      *
      * @param saldoEsperado O saldo esperado após o saque.
-     * @throws Throwable Lança uma PendingException porque a implementação está pendente.
      */
-    @Then("^deve efetuar o saque e atualizar o saldo da conta para -(\\d+) reais$")
-    public void deve_efetuar_o_saque_e_atualizar_o_saldo_da_conta_para_reais(int saldoEsperado) throws Throwable {
-    	// Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    @Then("^deve efetuar o saque e atualizar o saldo de conta para -(\\d+) reais$")
+    public void deve_efetuar_o_saque_e_atualizar_o_saldo_da_conta_para_reais_negativos(int saldoEsperado) {
+        // Método ainda não implementado
     }
     
     /**
-     * Verifica se um saque não deve ser executado devido a fundos insuficientes.
+     * Configura um cliente comum com um saldo atual.
      *
-     * @throws PendingException Lança uma PendingException porque a implementação está pendente.
+     * @param saldoAtual O saldo atual do cliente comum.
+     */
+    @Given("^um cliente comum com saldo atual de -(\\d+) reais$")
+    public void cliente_comum_com_saldo_negativo(int saldoAtual) {
+        // Método ainda não implementado
+    }
+    
+    /**
+     * Verifica se o saque não foi efetuado e se retorna a mensagem de Saldo Insuficiente.
      */
     @Then("^não deve efetuar o saque e deve retornar a mensagem Saldo Insuficiente$")
     public void nao_deve_efetuar_o_saque_e_deve_retornar_a_mensagem_Saldo_Insuficiente() {
-    	// Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        // Método ainda não implementado
     }
     
     /**
-     * Realiza verificações ou checagens adicionais se necessário.
+     * Configura um cliente especial com um saldo atual.
      *
-     * @throws Throwable Lança uma PendingException porque a implementação está pendente.
+     * @param saldoAtual O saldo atual do cliente especial.
      */
-    @Then("^verificar mais resultados$")
-    public void verificar_mais_resultados() throws Throwable {
-    	// Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    @Given("^um cliente especial com saldo atual de (\\d+) reais$")
+    public void cliente_especial_com_saldo_positivo(int saldoAtual) {
+        // Método ainda não implementado
     }
+    
+    /**
+     * Verifica se o saque foi efetuado com sucesso e atualiza o saldo da conta para um valor em reais.
+     *
+     * @param saldoEsperado O saldo esperado após o saque.
+     */
+    @Then("^deve efetuar o saque e atualizar o saldo de conta para (\\d+) reais$")
+    public void deve_efetuar_o_saque_e_atualizar_o_saldo_da_conta_para_reais_positivos(int saldoEsperado) {
+        // Método ainda não implementado
+    }
+    
+    /**
+     * Configura um cliente comum com um saldo atual.
+     *
+     * @param saldoAtual O saldo atual do cliente comum.
+     */
+    @Given("^um cliente comum com saldo atual de (\\d+) reais$")
+    public void cliente_comum_com_saldo_positivo(int saldoAtual) {
+        // Método ainda não implementado
+    }
+    
 }
+
 
 
 
