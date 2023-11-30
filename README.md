@@ -22,3 +22,6 @@ A classe `Conta` possui métodos para:
 
 ![image](https://github.com/DevLucasEduardo/BDD/assets/102432468/145ae113-a81d-4d86-82bb-f6d59c07925a)
 
+## Javadoc 
+
+Há uma documentação da classe Conta, sendo possível verificar suas funcionalidades. [Link para o doc]((https://github.com/DevLucasEduardo/BDD/tree/main/doc)https://github.com/DevLucasEduardo/BDD/tree/main/doc)
