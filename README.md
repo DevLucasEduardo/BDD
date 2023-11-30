@@ -16,15 +16,32 @@ A classe `Conta` possui métodos para:
 - Verificar se um saque não deve ser efetuado devido a fundos insuficientes.
 - Realizar verificações ou checagens adicionais se necessário.
 
+## .feature 
+
+O arquivo .feature é utilizado para informar de forma textual o que deve acontecer em dados cenários.
+Por exemplo, na imagem abaixo, dada uma situação (Given), quando uma ação ocorrer (When), então (Then) algo deverá acontecer.
+
+Neste caso foram usados três cenários indicados pelos valores na tabela da imagem. As variáveis em laranja são substituídos pelos valroes da tabela.
+
+![image](https://github.com/DevLucasEduardo/BDD/assets/102432468/cfacfaef-d59e-40dc-9aba-8148ac211de1)
+
+
+
 ## Resultados obtidos
 
-Na imagem a seguir é possível visualizar os cenários de forma verbal. Isto é, as funcionalidades são descritas de forma textual.
+Nas imagens a seguir é possível visualizar os cenários obtidos e quais métodos foram chamados para cada caso criado.
+Isto é, em cada situação, um método específico deve ser chamado, caso contrário o cenário não passará no teste.
+A esquerda estão os cenários do arquivo .feature e a direita quais métodos foram chamados.
 
-![image](https://github.com/DevLucasEduardo/BDD/assets/102432468/50ae59c8-4143-423d-ba9f-b33dca34163e)
+![image](https://github.com/DevLucasEduardo/BDD/assets/102432468/364c4821-b5b9-45a8-8af3-f4c5b373329d)
 
-Na imagem a seguir é possível visualizar os métodos que estão atrelados as palavras-chave Given, When, Then e And. Dessa forma, as responsabilidades de cada método e seus resultados esperados são explicados pela primeira imagem.
+![image](https://github.com/DevLucasEduardo/BDD/assets/102432468/db930552-8235-400a-bd87-bee454414481)
 
-![image](https://github.com/DevLucasEduardo/BDD/assets/102432468/145ae113-a81d-4d86-82bb-f6d59c07925a)
+![image](https://github.com/DevLucasEduardo/BDD/assets/102432468/c49ec815-80bb-4fe8-a607-bac2fed020ab)
+
+Abaixo é possível visualizar que todos os cenários passaram nos testes.
+
+![image](https://github.com/DevLucasEduardo/BDD/assets/102432468/25fb577d-e62a-420f-8816-4b2d70e729a4)
 
 ## Javadoc 
 
