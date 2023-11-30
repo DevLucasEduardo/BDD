@@ -14,7 +14,7 @@ A classe `Conta` possui métodos para:
 
 - Criar um cliente especial com um determinado saldo.
 - Criar um cliente comum com um determinado saldo.
-- Solicitar saldo.
+- Solicitar saque.
 - Efetuar ou não o saque de acordo com a situação do cliente.
 
 ## .feature 
