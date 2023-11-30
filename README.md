@@ -15,3 +15,8 @@ A classe `Conta` possui métodos para:
 - Verificar se um saque deve ser efetuado e atualizar o saldo da conta conforme necessário.
 - Verificar se um saque não deve ser efetuado devido a fundos insuficientes.
 - Realizar verificações ou checagens adicionais se necessário.
+
+![image](https://github.com/DevLucasEduardo/BDD/assets/102432468/50ae59c8-4143-423d-ba9f-b33dca34163e)
+
+![image](https://github.com/DevLucasEduardo/BDD/assets/102432468/145ae113-a81d-4d86-82bb-f6d59c07925a)
+
