@@ -18,7 +18,11 @@ A classe `Conta` possui métodos para:
 
 ## Resultados obtidos
 
+Na imagem a seguir é possível visualizar os cenários de forma verbal. Isto é, as funcionalidades são descritas de forma textual.
+
 ![image](https://github.com/DevLucasEduardo/BDD/assets/102432468/50ae59c8-4143-423d-ba9f-b33dca34163e)
+
+Na imagem a seguir é possível visualizar os métodos que estão atrelados as palavras-chave Given, When, Then e And. Dessa forma, as responsabilidades de cada método e seus resultados esperados são explicados pela primeira imagem.
 
 ![image](https://github.com/DevLucasEduardo/BDD/assets/102432468/145ae113-a81d-4d86-82bb-f6d59c07925a)
 
