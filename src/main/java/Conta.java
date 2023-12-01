@@ -105,6 +105,15 @@ public class Conta {
     public void cliente_comum_com_saldo_positivo(String tipoCliente) {
     	this.tipoCliente = tipoCliente;   
     }
+    
+    @Then("^deve efetuar o saque e atualizar o saldo de conta para (\\d+) reais$")
+    public int deve_efetuar_o_saque_e_atualizar_o_saldo_de_conta_para_reais(int saque) {
+    	if (tipoCliente.equals("especial")) {
+    		saldoAtual -= saque;
+    		return saldoAtual;
+    	}
+    	return saldoAtual;
+    }
 }
 
 
