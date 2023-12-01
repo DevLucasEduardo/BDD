@@ -34,11 +34,11 @@ Nas imagens a seguir é possível visualizar os cenários obtidos e quais métod
 Isto é, em cada situação, um método específico deve ser chamado, caso contrário o cenário não passará no teste.
 A esquerda estão os cenários do arquivo .feature e a direita quais métodos foram chamados.
 
-![image](https://github.com/DevLucasEduardo/BDD/assets/102432468/364c4821-b5b9-45a8-8af3-f4c5b373329d)
+![image](https://github.com/DevLucasEduardo/BDD/assets/102432468/96e9aff1-5182-4197-8dcd-a265e9c875a2)
 
-![image](https://github.com/DevLucasEduardo/BDD/assets/102432468/db930552-8235-400a-bd87-bee454414481)
+![image](https://github.com/DevLucasEduardo/BDD/assets/102432468/fe7bde84-9dd1-4524-a036-9168b6655335)
 
-![image](https://github.com/DevLucasEduardo/BDD/assets/102432468/c49ec815-80bb-4fe8-a607-bac2fed020ab)
+![image](https://github.com/DevLucasEduardo/BDD/assets/102432468/204b4e22-4358-40c7-8280-5975195c2dde)
 
 Abaixo é possível visualizar que todos os cenários passaram nos testes.
 
